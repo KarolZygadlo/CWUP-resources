@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Technology/Lab - 01.md",
+                "file": "Information Technology/Lab - 02.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b92a84dde3acbd5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Information Technology/Lab - 03.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Technology/Lab - 01.md",
+                "file": "Information Technology/Lab - 03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Technology/Lab - 01.md",
+                "file": "Information Technology/Lab - 03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Technology/Lab - 01.md"
+                "file": "Information Technology/Lab - 03.md"
               }
             }
           }
@@ -159,10 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f62d146717004417",
+  "active": "b92a84dde3acbd5c",
   "lastOpenFiles": [
-    "Computer networks/Docker.md",
+    "Information Technology/Lab - 02 - rozwiązania.md",
+    "Information Technology/Lab - 03.md",
+    "Information Technology/Lab - 02.md",
     "Information Technology/Lab - 01.md",
+    "Computer networks/Docker.md",
     "Information Technology",
     "Docker.md"
   ]
