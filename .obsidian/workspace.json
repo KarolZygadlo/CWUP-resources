@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Technology/Energetics/Lab - 0.md",
+                "file": "Information Technology/Logistics and transport/Lab - 0.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Technology/Energetics/Lab - 0.md",
+                "file": "Information Technology/Logistics and transport/Lab - 0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Technology/Energetics/Lab - 0.md",
+                "file": "Information Technology/Logistics and transport/Lab - 0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Technology/Energetics/Lab - 0.md"
+                "file": "Information Technology/Logistics and transport/Lab - 0.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "b92a84dde3acbd5c",
   "lastOpenFiles": [
-    "Information Technology/Energetics/Lab - 03.md",
     "Information Technology/Energetics/Lab - 0.md",
+    "Information Technology/Logistics and transport/Lab - 0.md",
+    "Information Technology/Logistics and transport",
+    "Information Technology/Energetics/Lab - 03.md",
     "Information Technology/Energetics",
     "Information Technology/Energetics/Lab - 02 - rozwiązania.md",
     "Information Technology/Energetics/Lab - 02.md",
