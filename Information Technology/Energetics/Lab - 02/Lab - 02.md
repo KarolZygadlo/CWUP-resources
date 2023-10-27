@@ -36,6 +36,19 @@ Sub ProstyIf()
 End Sub
 ```
 
+Jak mogłaby ta procedura wyglądać jako funkcja ? : 
+
+```vba
+Function instrukcjaIf(liczba As Integer) As String
+    If liczba > 5 Then
+        info = "Liczba jest większa niż 5."
+    Else
+        info = "Liczba nie jest większa niż 5."
+    End If
+    MsgBox info
+End Function
+```
+
 2. **Użycie `ElseIf`**:
 
 ```vba
@@ -49,6 +62,19 @@ Sub IfElse()
         MsgBox "Liczba jest mniejsza lub równa 5."
     End If
 End Sub
+```
+
+Jak mogłaby ta procedura wyglądać jako funkcja ? : 
+
+```vba
+Function CzyWiekszaNiz5MsgBox(liczba As Integer) As String
+    If liczba > 5 Then
+        CzyWiekszaNiz5MsgBox = "Liczba jest większa niż 5."
+    Else
+        CzyWiekszaNiz5MsgBox = "Liczba nie jest większa niż 5."
+    End If
+    MsgBox CzyWiekszaNiz5MsgBox
+End Function
 ```
 
 3. **Zagnieżdżone `If`**:
@@ -66,6 +92,19 @@ Sub ZagniezdzoneIf()
         MsgBox "Liczba jest równa 5."
     End If
 End Sub
+```
+
+```vba
+Function OcenaLiczbyMsgBox(liczba As Integer) As String
+    If liczba > 5 Then
+        OcenaLiczbyMsgBox = "Liczba jest większa niż 5."
+    ElseIf liczba < 5 Then
+        OcenaLiczbyMsgBox = "Liczba jest mniejsza niż 5."
+    Else
+        OcenaLiczbyMsgBox = "Liczba jest równa 5."
+    End If
+    MsgBox OcenaLiczbyMsgBox
+End Function
 ```
 
 #### Warte uwagi
@@ -269,4 +308,3 @@ End Sub
 **Zadanie 3.1**: Zaprojektuj procedurę, która wyświetli okno komunikatu z pytaniem „Czy jesteś pewien?”. Okno powinno zawierać przyciski Tak/Nie oraz ikonę pytania.
 
 **Zadanie 3.2**: Utwórz procedurę, która przy użyciu `MsgBox` wyświetli okno komunikatu z ikoną błędu i przyciskami Anuluj, Spróbuj ponownie, Kontynuuj. W zależności od wyboru użytkownika, pokaż odpowiadający mu komunikat.
-
